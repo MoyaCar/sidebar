@@ -4,38 +4,31 @@
   </div>
   <ul class="list-unstyled components">
     <p> </p>
-    <li class="active">
+    <li>
       <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Actas</a>
       <ul class="collapse list-unstyled" id="homeSubmenu">
-        <li>
-          <a href="#">Crear actas</a>
-        </li>
-        <li>
-          <a href="#">Crear descargo</a>
-        </li>
+        <li> <%= link_to "Crear acta", root_path %></li>
+        <li> <%= link_to "Ver actas", tablas_index_path %></li>
+        <li><a href="#">Crear descargo</a></li>
+        <li><a href="#">Ver descargos</a></li>
       </ul>
     </li>
+
     <li>
       <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Expedientes</a>
       <ul class="collapse list-unstyled" id="pageSubmenu">
-        <li>
-          <a href="#">Crear Expediente</a>
-        </li>
+        <li><a href="#">Crear Expediente</a></li>
       </ul>
     </li>
     <li>
-      <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Dictamenes</a>
-      <ul class="collapse list-unstyled" id="pageSubmenu" >
-        <li>
-          <a href="#">Crear Dictamen</a>
-        </li>
+
+      <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Dictamenes</a>
+      <ul class="collapse list-unstyled" id="pageSubmenu3" >
+        <li><a href="#">Crear Dictamen</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#">Resoluciones</a>
-    </li>
-    <li>
-      <a href="#">Contacto</a>
-    </li>
+
+    <li><a href="#">Resoluciones</a></li>
+    <li><a href="#">Contacto</a></li>
   </ul>
 </nav>

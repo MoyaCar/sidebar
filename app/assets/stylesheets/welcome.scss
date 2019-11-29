@@ -93,6 +93,10 @@ a:focus {
     //border-bottom: 1px solid #47748b;
 }
 
+.components {
+    padding: 20px 0;
+}
+
 #sidebar ul p {
     color: #fff;
     padding: 10px;
@@ -192,3 +196,45 @@ a.article:hover {
 .campo:hover {
     background: rgb(245, 245, 245);
 }
+
+/*-----------
+    TABLAS
+-------------*/
+
+.contenido-acta {
+    color: rgb(85, 85, 85);
+  }
+  
+  .datos {
+    border-radius: .50rem !important;
+    font-size: 13px !important;
+    transition: background-color 0.4s;
+  }
+  .datos div {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+  
+  }
+  .datos:hover {
+    background-color:  rgb(235, 235, 235) !important;
+    transition: background-color 0.15s;
+  }
+  
+  
+  .atributos div {
+     
+      font-size: 12px;
+      font-weight: bolder !important;
+    
+  }
+  
+  .opcion {
+    padding-right: 4px;
+  }
+  
+ /*  @include media-breakpoint-up(md) {
+    .opcion {
+      padding-right: 16px;
+    }
+  } */
